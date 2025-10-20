@@ -1,0 +1,210 @@
+body{
+    background-color: rgb(0, 0, 33);
+    font-family: 'poppins',sans-serif;
+    color: white;
+}
+
+.head{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 1000;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+     box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+}
+
+.n
+{
+    color: white;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color:rgb(18, 18, 62) ;
+    
+    
+}
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+    /* border: 2px solid yellow; */
+    
+}
+
+nav ul li{
+    /* border: 2px solid green; */
+    margin: 0px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* for styling the navigation bar */
+nav ul li a:hover{
+    
+    color: rgb(96, 96, 167);
+    font-size: 1.04rem;
+}
+
+.left
+{
+  font-size: 1.5rem;
+ 
+}
+
+
+/* ----------------------------------- */
+/* main body */
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    /* overflow: hidden; */
+    /* border: 2px solid green; */
+
+       margin-top: 150px;
+    
+}
+
+.cards-container{
+   justify-content: space-between; 
+   flex-wrap: wrap;
+   row-gap: 20px;
+   align-items: start;
+    /* border: 2px solid greenyellow; */
+}
+
+/* Important for designing purpose  */
+.card{
+    /* border: 2px solid pink; */
+    width: 360px;
+    min-height: 400px;
+    box-shadow: 0 0 4px pink;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #020614;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  
+}
+.card:hover{
+    box-shadow: 1px 1px 8px rgb(143, 64, 216);
+    background-color: #020614;
+    transform: translateY(-5px);
+}
+
+/* add by me */
+.card-header{
+    /* border: 2px solid blue; */
+    /* height: 180px; */
+}
+
+.card-header img{
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    /* border: 2px solid gold; */
+    padding-top: 7px;
+}
+
+.card-content{
+    /* border: 2px solid purple; */
+    padding:12px;
+
+}
+
+.btn{
+    background-color: #140530;
+    border: 2px solid grey;
+    color: white;
+    margin-top: 35px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.5s ease;
+   
+}
+.btn:hover{
+     box-shadow: 1px 1px 8px rgb(143, 64, 216);
+    background-color: #140530;
+    transform: translateY(-3px);
+}
+
+.main-card{
+    margin-bottom: 60px;
+}
+
+.main-card a{
+    text-decoration: none;
+    color: white;
+}
+
+.new-des
+{
+    margin-top: 8px;
+    color: grey;
+}
+
+/* ------------------------------ */
+/* footer */
+
+
+
+footer{
+    background-color: #020614;
+    color: white;
+}
+
+.name{
+    text-align: center;
+    /* border: 2px solid yellow; */
+    padding: 12px;
+}
+
+.content{
+    text-align: center;
+    /* border: 2px solid green; */
+    padding: 12px;
+}
+
+.social{
+    /* text-align: center; */
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.down{
+     text-align: center;
+     color: grey;
+     font-size: 0.9rem;
+     padding-top: 8px;
+     background-color: black;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+}

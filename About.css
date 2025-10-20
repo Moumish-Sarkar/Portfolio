@@ -1,0 +1,167 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color:  rgb(0, 0, 33); 
+  color: white;
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* border: 2px solid yellow; */
+}
+.head{
+   /* border: 2px solid yellow; */
+
+}
+
+.n
+{
+    color: white;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color:rgb(18, 18, 62) ;
+    
+}
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+    /* border: 2px solid yellow; */
+    
+}
+nav ul li{
+    /* border: 2px solid green; */
+    margin: 0px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    
+    color: rgb(96, 96, 167);
+    font-size: 1.04rem;
+}
+
+.left
+{
+  font-size: 1.5rem;
+ 
+}
+
+
+
+
+/* About Section */
+.about-section {
+    margin: 30px 0px;
+    gap: 60px;
+    /* border: 2px solid paleturquoise; */
+}
+
+.about-me{
+ margin: 0px 64px;
+    padding: 27px;
+}
+
+.about-text {
+    display: flex;
+    justify-content: space-around;
+  /* border: 2px solid pink; */
+    height: 25vw;
+}
+.left-main{
+ /* border: 1px solid grey;  */
+ /* border-radius: 4px; */
+   font-size: 1.5rem;
+   width: 40%;  
+   /* padding: 5px; */
+}
+.right-main{
+     /* border: 2px solid rgb(186, 44, 146);  */
+     width: 30%;  
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  line-height: 1.8;
+  font-size: 1.05rem;
+  color: #d1d1e0;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #a855f7;
+  font-weight: 600;
+}
+
+/* Image */
+.image{
+     width: 80%;
+      margin: -277px 0px;
+    border-radius:178px;
+}
+
+/* Footer */
+
+
+
+footer{
+    background-color: #020614;
+    color: white;
+}
+
+.name{
+    text-align: center;
+    /* border: 2px solid yellow; */
+    padding: 12px;
+}
+
+.content{
+    text-align: center;
+    /* border: 2px solid green; */
+    padding: 12px;
+}
+
+.social{
+    /* text-align: center; */
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.down{
+     text-align: center;
+     color: grey;
+     font-size: 0.9rem;
+     padding-top: 8px;
+     background-color: black;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+}

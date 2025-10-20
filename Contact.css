@@ -1,0 +1,288 @@
+body{
+    background-color: rgb(0, 0, 33);
+    font-family: 'poppins',sans-serif;
+    color: white;
+}
+
+.head{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+     box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+}
+
+.n
+{
+    color: white;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color:rgb(18, 18, 62) ;
+    
+}
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+    /* border: 2px solid yellow; */
+    
+}
+
+nav ul li{
+    /* border: 2px solid green; */
+    margin: 0px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* for styling the navigation bar */
+nav ul li a:hover{
+    
+    color: rgb(96, 96, 167);
+    font-size: 1.04rem;
+}
+
+.left
+{
+  font-size: 1.5rem;
+ 
+}
+/* --------------------------------------------- */
+
+/* form style */
+
+ main{
+    margin-top: 180px;
+    margin-bottom: 80px;
+    /* border: 2px solid yellow; */
+}
+
+/*
+.contact {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005ec2;
+} */
+
+.left1
+{
+     /* border: 2px solid yellow; */
+     display: flex;
+     flex-direction: column;
+}
+
+h2{
+    /* margin: 0px 30px; */
+    color: white;
+  text-decoration: underline;
+  text-decoration-color: grey; 
+   text-decoration-thickness: 1px;   
+  text-underline-offset: 10px;  
+}
+
+
+.right2
+{
+     /* border: 2px solid yellow; */
+     width: 40%;
+     height: 400px;
+}
+
+.contact{
+    display: flex;
+   justify-content: space-around;
+   margin: 0px 150px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.correct{
+    margin-block: 10px;
+    padding: 10px;
+    background-color: rgb(0, 0, 33);
+    border: 1px solid grey;
+    color: white;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+}
+.correct:hover{
+ transform: translateY(-3px);
+ border: 1px solid pink;
+ 
+}
+
+.btn{
+    background-color: #140530;
+    border: 2px solid grey;
+    color: white;
+    /* margin-top: 35px; */
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.5s ease;
+   
+}
+.btn:hover{
+     box-shadow: 1px 1px 8px rgb(143, 64, 216);
+    background-color: #140530;
+    transform: translateY(-3px);
+}
+
+
+
+p{
+    margin:30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+.contact-box {
+  /* background-color: #1e1e2f; */
+  color: #fff;
+  /* border: 1px solid rgb(96, 96, 167); */
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-box h2 {
+  font-weight: 700;
+  color: #bfbfbf;
+  margin-bottom: 10px;
+}
+
+.contact-box hr {
+  border: none;
+  /* border-top: 2px solid rgb(96, 96, 167); */
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.contact-box p {
+  margin: 10px 0;
+  /* font-style: italic; */
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  white-space: nowrap; 
+}
+
+.contact-box i {
+  color: rgb(96, 96, 167);
+  font-size: 18px;
+  
+}
+
+.contact-box a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
+.fas{
+    /* margin-left: -10px; */
+}
+
+
+/* ------------------------------------ */
+/* footer */
+
+
+
+footer{
+    background-color: #020614;
+    color: white;
+}
+
+.name{
+    text-align: center;
+    /* border: 2px solid yellow; */
+    padding: 12px;
+}
+
+.content{
+    text-align: center;
+    /* border: 2px solid green; */
+    padding: 12px;
+}
+
+.social{
+    /* text-align: center; */
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.down{
+     text-align: center;
+     color: grey;
+     font-size: 0.9rem;
+     padding-top: 8px;
+     background-color: black;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+}
